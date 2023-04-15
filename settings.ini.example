@@ -1,11 +1,11 @@
 [OPTIONS]
 
 # Transcribe model type: 
-# - 'tiny' 	- Very fast and very inaccurate speech recognition (avg x1 speed, 72 Mb)
-# - 'base' 	- Fast and fourius (avg x1.5 slower, 139 Mb)
-# - 'small' 	- Worse than medium but still OK (avg x3.5 slower, 461 Mb)
-# - 'medium' 	- Good recognition results, but slow on CPU (avg x7 slower, 1457 Mb)
-# - 'large' 	- Recommended use on GPU, but useful on powerful CPU (avg x10 slower than tiny, 2944 Mb)
+# - 'tiny' 	- Very fast and very inaccurate speech recognition (avg x1 speed, 72 Mb model size)
+# - 'base' 	- Fast and fourius (avg x1.5 slower, 139 Mb model size)
+# - 'small' 	- Worse than medium but still OK (avg x3.5 slower, 461 Mb model size)
+# - 'medium' 	- Good recognition results, but slow on CPU (avg x7 slower, 1457 Mb model size)
+# - 'large' 	- Recommended use on GPU, but useful on powerful CPU (avg x10 slower than tiny, 2944 Mb model size, 18 Gb RAM required)
 
 whisper_model = large
 

@@ -36,3 +36,7 @@ pip install openai-whisper
 ```
 python3 batch-speech-to-text.py
 ```
+
+### Благодарности
+
+https://github.com/dimonier/batch-speech-to-text.git 

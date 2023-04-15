@@ -1,0 +1,18 @@
+[OPTIONS]
+
+# Transcribe model type: 
+# - 'tiny' 	- Very fast and very inaccurate speech recognition (avg x1 speed, 72 Mb)
+# - 'base' 	- Fast and fourius (avg x1.5 slower, 139 Mb)
+# - 'small' 	- Worse than medium but still OK (avg x3.5 slower, 461 Mb)
+# - 'medium' 	- Good recognition results, but slow on CPU (avg x7 slower, 1457 Mb)
+# - 'large' 	- Recommended use on GPU, but useful on powerful CPU (avg x10 slower than tiny, 2944 Mb)
+
+whisper_model = large
+
+# Force usage of specified language
+
+force_transcribe_language = ru
+
+# Audio files in this folder will be processed
+
+sources_dir = C:\TEMP\

@@ -45,7 +45,7 @@ python3 batch-speech-to-text.py
 |  base  |    139 M    |     `base`      |       ?       |     ~1 GB     |      ~16x      |
 | small  |   461 M    |     `small`     |      ?       |     ~2 GB     |      ~6x       |
 | medium |   1457 M    |    `medium`     |     ?      |     ~5 GB     |      ~2x       |
-| large  |   2944 M   |    `large`   |      ~18 Gb       |    ~10 GB     |       1x       |
+| large  |   2944 M   |    `large`   |      ~8 Gb       |    ~10 GB     |       1x       |
 
 Подробнее: https://github.com/openai/whisper#available-models-and-languages
 
